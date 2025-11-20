@@ -195,7 +195,7 @@ export default function SearchBar() {
                         bg: "purple.50",
                         transform: "translateX(-4px)",
                       }}
-                      transition="all 0.2s"
+                      // transition="all 0.2s"
                       display="flex"
                       alignItems="center"
                       gap={3}

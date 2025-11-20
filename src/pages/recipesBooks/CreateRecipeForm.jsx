@@ -170,9 +170,6 @@ export default function CreateRecipeForm({
       tags,
     };
 
-    console.log(payload);
-    return;
-
     Object.keys(payload).forEach((key) => {
       const value = payload[key];
       if (Array.isArray(value)) {

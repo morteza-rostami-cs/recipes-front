@@ -36,7 +36,7 @@ export default function LoginForm() {
       border="1px"
       borderColor="purple.100"
       _hover={{ shadow: "2xl", borderColor: "purple.200" }}
-      transition="all 0.3s"
+      // transition="all 0.3s"
       dir="rtl"
       textAlign="right"
     >
