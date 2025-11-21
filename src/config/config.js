@@ -12,7 +12,7 @@ const ENV = {
 
 const isProd = ENV.NODE_ENV === "production";
 
-console.log(ENV.API_URL_DEV);
+console.log(ENV);
 if (!ENV.API_URL_DEV || !ENV.API_URL_PROD) {
   throw new Error(
     `Missing API URL for ${isProd ? "production" : "development"}.\n` +
